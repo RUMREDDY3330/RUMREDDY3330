@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.runner.TestRunner" time="49.356" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\eclipse-workspace\CucumberPractice\target\test-classes;C:\Users\HP\eclipse-workspace\CucumberPractice\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.0\selenium-java-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.0\selenium-api-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.0\selenium-chrome-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.0\selenium-edge-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.0\selenium-firefox-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.0\selenium-ie-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.0\selenium-opera-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.0\selenium-remote-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.0\selenium-safari-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.0\selenium-support-3.7.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\HP\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\HP\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\HP\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\HP\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\HP\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\HP\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire60297447782391694\surefirebooter3761451636000812316.jar C:\Users\HP\AppData\Local\Temp\surefire60297447782391694 2022-06-01T16-16-04_551-jvmRun1 surefire7006176475682583862tmp surefire_06772609194159006700tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\CucumberPractice\target\test-classes;C:\Users\HP\eclipse-workspace\CucumberPractice\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.0\selenium-java-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.0\selenium-api-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.0\selenium-chrome-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.0\selenium-edge-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.0\selenium-firefox-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.0\selenium-ie-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.0\selenium-opera-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.0\selenium-remote-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.0\selenium-safari-driver-3.7.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.0\selenium-support-3.7.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\HP\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\HP\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.2.2\cucumber-java-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.2.2\cucumber-core-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.2.2\cucumber-gherkin-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.2\cucumber-gherkin-messages-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.2.2\datatable-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.2.2\cucumber-plugin-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.2.2\docstring-7.2.2.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.2.2\cucumber-junit-7.2.2.jar;C:\Users\HP\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\HP\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\HP\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\HP\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\HP\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\eclipse-workspace\CucumberPractice"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire60297447782391694\surefirebooter3761451636000812316.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\CucumberPractice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin/server;C:/Users/HP/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\HP\Documents\apache maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="user enterd is on home page" classname="Title of your feature" time="48.139">
+    <system-out><![CDATA[
+@Edit @Login
+Scenario: user enterd is on home page &amp#27;[90m# src/test/resources/FeaturesFiles/EditProfile.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser in on login page&amp#27;[0m         &amp#27;[90m# com.stepDefination.naukriloginpage.user_in_on_login_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser enterd user name&amp#27;[0m          &amp#27;[90m# com.stepDefination.naukriloginpage.user_enterd_user_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter password&amp#27;[0m             &amp#27;[90m# com.stepDefination.naukriloginpage.user_enter_password()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser click on login button&amp#27;[0m     &amp#27;[90m# com.stepDefination.naukriloginpage.user_click_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is on home page&amp#27;[0m           &amp#27;[90m# com.stepDefination.naukriloginpage.user_is_on_home_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser click on a mynaukri&amp#27;[0m      &amp#27;[90m# com.stepDefination.EditProfile.user_click_on_a_mynaukri()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clik on EditProfiles&amp#27;[0m       &amp#27;[90m# com.stepDefination.EditProfile.user_clik_on_edit_profiles()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clik on a resumeupdate&amp#27;[0m    &amp#27;[90m# com.stepDefination.EditProfile.user_clik_on_a_resumeupdate()&amp#27;[0m
+nsvigsted to dscejjksdn
+
+    Embedding user enterd is on home page [image/png 89628 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jun 01, 2022 4:16:08 PM io.cucumber.core.runtime.FeaturePathFeatureSupplier$FeatureBuilder addUnique
+SEVERE: Duplicate feature found: file:///C:/Users/HP/eclipse-workspace/CucumberPractice/./target/test-classes/FeaturesFiles/EditProfile.feature was identical to file:///C:/Users/HP/eclipse-workspace/CucumberPractice/./src/test/resources/FeaturesFiles/EditProfile.feature
+
+This typically happens when you configure cucumber to look for features in the root of your project.
+Your build tool creates a copy of these features in a 'target' or 'build'directory.
+
+If your features are on the class path consider using a class path URI.
+For example: 'classpath:com/example/app.feature'
+Otherwise you'll have to provide a more specific location
+Jun 01, 2022 4:16:08 PM io.cucumber.core.runtime.FeaturePathFeatureSupplier$FeatureBuilder addUnique
+SEVERE: Duplicate feature found: file:///C:/Users/HP/eclipse-workspace/CucumberPractice/./target/test-classes/FeaturesFiles/Mahesh.feature was identical to file:///C:/Users/HP/eclipse-workspace/CucumberPractice/./src/test/resources/FeaturesFiles/Mahesh.feature
+
+This typically happens when you configure cucumber to look for features in the root of your project.
+Your build tool creates a copy of these features in a 'target' or 'build'directory.
+
+If your features are on the class path consider using a class path URI.
+For example: 'classpath:com/example/app.feature'
+Otherwise you'll have to provide a more specific location
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 43781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 01, 2022 4:16:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
